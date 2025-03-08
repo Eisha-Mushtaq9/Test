@@ -1,0 +1,17 @@
+# "Ramadan Hamper"
+
+products=int(input("Enter your total products: "))
+total_amount=int(input("Enter your total_amount: "))
+if products==15 or total_amount>=2500:
+    discount=20/100*total_amount
+    print(discount)
+elif products==20 or total_amount>=4500:
+    discount=50/100*total_amount
+    print(discount)
+elif products==90 or total_amount>=10000:
+    discount=80/100*total_amount
+    print(discount)
+else:
+    discount=0
+
+print("your discount is:",discount)
